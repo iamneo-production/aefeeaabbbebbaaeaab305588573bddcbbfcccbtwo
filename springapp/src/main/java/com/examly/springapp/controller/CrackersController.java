@@ -21,6 +21,7 @@ public class CrackersController {
 
     @PostMapping("/")
     public boolean addCrackers(@RequestBody Crackers crackers){
+        System.out.println("Hello");
         return apiService.addCrackers(crackers);
     }
 
