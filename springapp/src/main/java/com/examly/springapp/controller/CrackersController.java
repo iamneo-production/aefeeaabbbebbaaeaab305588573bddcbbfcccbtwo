@@ -19,7 +19,7 @@ public class CrackersController {
     @Autowired
     public ApiService apiService;
 
-    @PostMapping("/")
+    @PostMapping("/add")
     public boolean addCrackers(@RequestBody Crackers crackers){
         System.out.println("Hello");
         return apiService.addCrackers(crackers);
