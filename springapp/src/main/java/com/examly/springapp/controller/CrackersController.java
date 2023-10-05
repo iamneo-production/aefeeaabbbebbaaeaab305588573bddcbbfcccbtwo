@@ -1,4 +1,5 @@
-package  com.examly.springapp;
+package com.examly.springapp.controller;
+
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
