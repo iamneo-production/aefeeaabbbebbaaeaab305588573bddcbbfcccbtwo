@@ -1,4 +1,4 @@
-package com.example.springapp.Controllers;
+package com.examly.springapp.controller;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 
-import com.example.springapp.Models.Crackers;
+import com.example.springapp.model.Crackers;
 import com.example.springapp.Services.ApiService;
 
 @RestController
